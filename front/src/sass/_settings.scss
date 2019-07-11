@@ -1,0 +1,15 @@
+/*
+ *  LAURIE  | SETTINGS
+ */
+
+/* ! fonts */
+$montserrat                : Montserrat;
+$font-family               : $montserrat, Verdana, Geneva, sans-serif;
+$font-size                 : 16;
+$line-height-base          : 21;
+$fz                        : percentage( $font-size / 16 );
+$line-height               : $line-height-base / $font-size;
+
+$bold : 700;
+$semi-bold : 600;
+$normal : 400;

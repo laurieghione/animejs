@@ -1,0 +1,23 @@
+{
+  "output":
+  {
+    "path": "./public",
+    "sass": "./public/style.css",
+    "scrips": "./public/main.js"
+  },
+  "browserify": {
+    "path": "./src/scripts",
+    "boot": "./src/scripts/main.js",
+    "watch":"./src/scripts/**/*.js"
+  },
+  "sass": {
+    "path": "./src/sass",
+    "boot": "./src/sass/**/*.scss"
+  },
+  "copy": {
+    "css": "./public/style.css",
+    "js": "./public/main.js",
+    "destcss": "./../",
+    "destjs": "./../"
+  }
+}

@@ -1,0 +1,4 @@
+.htaccess
+front/public/*
+front/node_modules
+front/package-lock.json

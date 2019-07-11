@@ -1,0 +1,32 @@
+.ml9 {
+  position: relative;
+  font-weight: 700;
+  font-size: 9em;
+  letter-spacing: 0.2rem;
+  @media #{$desktop_min} {
+    font-size: 3em;
+  }
+  @media #{$ipad_max} {
+    font-size: 6em;
+  }
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  margin-top: 25vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+  color: black;
+  //text-transform: uppercase;
+  font-family: "poppins";
+}

@@ -1,0 +1,15 @@
+/*
+ *  Laurie  | RESPONSIVE STYLE
+ */
+
+// Small devices (landscape phones, 576px and up)
+$phone: 'screen and ( min-width: 576px )';
+// Medium devices (tablets, 768px and up)
+$ipad: 'screen and ( min-width: 768px )';
+$ipad_max: 'screen and ( max-width: 1024px )';
+// Large devices (desktops, 992px and up)
+$desktop_min: 'screen and ( max-width: 1440px )';
+$macbook_air: 'screen and ( max-height: 560px )';
+$desktop: 'screen and ( min-width: 992px )';
+// Extra large devices (large desktops, 1200px and up)
+$desktop-large: 'screen and ( min-width: 1200px )';
