@@ -12,7 +12,7 @@ gulp.task('copy', function() {
     .pipe(gulp.dest(config.copy.destcss))
     .pipe(debug());
 
-  gutil.log(gutil.colors.magenta('Copy css file ' + config.copy.css + ' on wordpress repository ' + config.copy.destcss));
+  gutil.log(gutil.colors.magenta('Copy css file ' + config.copy.css + ' on  repository ' + config.copy.destcss));
 
   del(config.copy.destjs + "/*", {
     force: true
@@ -22,6 +22,6 @@ gulp.task('copy', function() {
     .pipe(gulp.dest(config.copy.destjs))
     .pipe(debug())
 
-  gutil.log(gutil.colors.magenta('Copy js file ' + config.copy.js + ' on wordpress repository ' + config.copy.destjs));
+  gutil.log(gutil.colors.magenta('Copy js file ' + config.copy.js + ' on  repository ' + config.copy.destjs));
 
 });
